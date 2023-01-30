@@ -1,13 +1,3 @@
-#Deep Deterministic Policy Gradient (DDPG)
-# https://arxiv.org/abs/1509.02971
-# https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf
-# code from the excellent article :
-# https://towardsdatascience.com/reinforcement-learning-w-keras-openai-dqns-1eed3a5338c
-# modificitation to take into account continuous state and/or action:
-# https://keras.io/examples/rl/ddpg_pendulum/
-# Structure of the class widely inspired by :
-# https://github.com/cookbenjamin/DDPG
-
 import numpy as np
 import tensorflow as tf
 from keras.initializers import normal, identity
